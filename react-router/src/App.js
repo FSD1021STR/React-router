@@ -7,9 +7,11 @@ import Routes from "./Routes";
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
         <NavBar />
         <SideBar />
         <Routes />
+      </BrowserRouter>
     </div>
   );
 }
