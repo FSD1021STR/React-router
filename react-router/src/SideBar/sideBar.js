@@ -5,14 +5,11 @@ import logo from "../logo.svg";
 
 const SideBar = () => {
   return(
-    <div className="container-sidebar">
-       <div className="sidebar-item"> 
-        <Link className = "links" to ="/home"><img className="App-logo" src={logo}/></Link> 
-        <Link className = "links" to ="/home">Home</Link>
-        <Link className = "links" to ="/page1">Page1</Link> 
-        <Link className = "links" to ="/page2">Page2</Link> 
-        <Link className = "links" to ="/page3">Page3</Link> 
-      </div> 
-    </div>
+    <ul className="container-sidebar">
+      <li><Link to = "/home">Home</Link></li>
+      <li><Link to = "/page1">Page1</Link></li>
+      <li><Link to = "/page2">Page2</Link></li>
+      <li><Link to = "/page3">Page3</Link></li>
+    </ul>
   )};
 export default SideBar;
