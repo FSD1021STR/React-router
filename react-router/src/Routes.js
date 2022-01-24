@@ -7,12 +7,7 @@ import Page3 from "./pages/page3";
 
 const Routes = () => {
   return (
-    <Switch>
-      <Route path="/home" exact component={Home} />
-      <Route path="/page1" component={Page1} />
-      <Route path="/page2" component={Page2} />
-      <Route path="/page3" component={Page3} />
-    </Switch>
+
   );
 };
 export default Routes;
