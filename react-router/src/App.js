@@ -2,15 +2,15 @@ import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./NavBar/navBar";
 import SideBar from "./SideBar/sideBar";
-import Routes from "./Routes";
+import Navigator from "./Routes";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        {/* <SideBar /> */}
-        <Routes />
+        <SideBar />
+        <Navigator />
       </BrowserRouter>
     </div>
   );
