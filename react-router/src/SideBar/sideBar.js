@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./sideBar.css";
-import logo from "../logo.svg";
+// import logo from "../logo.svg";
 
 const SideBar = () => {
   return(
