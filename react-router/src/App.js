@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <SideBar />
+        {/* <SideBar /> */}
         <Routes />
       </BrowserRouter>
     </div>
